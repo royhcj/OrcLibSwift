@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import OrcLibSwift
 
 class ViewController: UIViewController {
 
