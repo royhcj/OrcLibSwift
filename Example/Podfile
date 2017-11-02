@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OrcLibSwift_Example' do
+  pod 'OrcLibSwift', :path => '../'
+
+  target 'OrcLibSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
