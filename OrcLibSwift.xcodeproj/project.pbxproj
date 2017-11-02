@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B007AF711FAB61D200ACA25B /* OrcLibSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B007AF6F1FAB61D200ACA25B /* OrcLibSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B007AF7A1FAB658700ACA25B /* oObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007AF781FAB658600ACA25B /* oObject.swift */; };
+		B007AF7B1FAB658700ACA25B /* oUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007AF791FAB658600ACA25B /* oUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B007AF6C1FAB61D200ACA25B /* OrcLibSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrcLibSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B007AF6F1FAB61D200ACA25B /* OrcLibSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrcLibSwift.h; sourceTree = "<group>"; };
 		B007AF701FAB61D200ACA25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B007AF781FAB658600ACA25B /* oObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oObject.swift; sourceTree = "<group>"; };
+		B007AF791FAB658600ACA25B /* oUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +50,20 @@
 		B007AF6E1FAB61D200ACA25B /* OrcLibSwift */ = {
 			isa = PBXGroup;
 			children = (
+				B007AF771FAB658600ACA25B /* Core */,
 				B007AF6F1FAB61D200ACA25B /* OrcLibSwift.h */,
 				B007AF701FAB61D200ACA25B /* Info.plist */,
 			);
 			path = OrcLibSwift;
+			sourceTree = "<group>";
+		};
+		B007AF771FAB658600ACA25B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B007AF781FAB658600ACA25B /* oObject.swift */,
+				B007AF791FAB658600ACA25B /* oUtil.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B007AF7A1FAB658700ACA25B /* oObject.swift in Sources */,
+				B007AF7B1FAB658700ACA25B /* oUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +279,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.royhcj.OrcLibSwift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
