@@ -1,0 +1,16 @@
+PODS:
+  - OrcLibSwift (0.1.0)
+
+DEPENDENCIES:
+  - OrcLibSwift (from `../`)
+
+EXTERNAL SOURCES:
+  OrcLibSwift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OrcLibSwift: 37b71262cd24cd6574dd95f6b46723b30ca4c56e
+
+PODFILE CHECKSUM: 2f980c1c3312c245d5dfe5d143fb8c2f6064cedd
+
+COCOAPODS: 1.3.1
