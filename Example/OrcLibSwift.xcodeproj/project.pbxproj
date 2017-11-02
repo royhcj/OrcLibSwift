@@ -41,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* OrcLibSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrcLibSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6C1F60D13628148979A8148D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		7C68C06EB42CC85F9AD22A49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6C1F60D13628148979A8148D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7C68C06EB42CC85F9AD22A49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A0C2BF5152E8FFDB9FBE7190 /* Pods_OrcLibSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrcLibSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3962FF520DD5A87779ABC2C /* OrcLibSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OrcLibSwift.podspec; path = ../OrcLibSwift.podspec; sourceTree = "<group>"; };
+		B3962FF520DD5A87779ABC2C /* OrcLibSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OrcLibSwift.podspec; path = ../OrcLibSwift.podspec; sourceTree = "<group>"; };
 		B7969ED97591A44C2D26993F /* Pods-OrcLibSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrcLibSwift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OrcLibSwift_Tests/Pods-OrcLibSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B7C091969C3B1CE1D30AB274 /* Pods_OrcLibSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrcLibSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
